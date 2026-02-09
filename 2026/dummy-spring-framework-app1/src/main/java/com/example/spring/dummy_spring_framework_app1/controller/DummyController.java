@@ -17,7 +17,9 @@ public class DummyController {
         return Arrays.asList(
                 new Course(1,"AWS", "dummyAutor1"),
                 new Course(2,"DevOps", "dummyAutor2"),
-                new Course(3,"Linux", "dummyAutor3")
+                new Course(3,"Linux", "dummyAutor3"),
+                new Course(4,"Unix", "dummyAutor4"),
+                new Course(5,"Docker", "dummyAutor5")
         );
     }
 
