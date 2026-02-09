@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Getter
 @Component
 @ConfigurationProperties(prefix = "app")
-public class AppProperties {
+public class AppConfiguration {
 
     // Setters are required for @ConfigurationProperties to bind
     // Getters only (immutable style)
